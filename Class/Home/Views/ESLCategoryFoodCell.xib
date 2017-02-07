@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="categoryFoodCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="categoryFoodCell" rowHeight="139" id="KGk-i7-Jjw" customClass="ESLCategoryFoodCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="139"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="138"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="laX-4M-G3v">
+                        <rect key="frame" x="0.0" y="130" width="320" height="8"/>
+                        <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="8" id="QCv-2T-oHW"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="giC-in-Lw8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="130" id="xUw-JG-Do6"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="laX-4M-G3v" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="IPm-Wd-cqm"/>
+                    <constraint firstItem="laX-4M-G3v" firstAttribute="top" secondItem="giC-in-Lw8" secondAttribute="bottom" id="aOu-Fw-4pU"/>
+                    <constraint firstAttribute="trailing" secondItem="giC-in-Lw8" secondAttribute="trailing" id="mlF-KM-Id1"/>
+                    <constraint firstAttribute="trailing" secondItem="laX-4M-G3v" secondAttribute="trailing" id="s6C-d8-h2O"/>
+                    <constraint firstItem="giC-in-Lw8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sYI-KU-Z7M"/>
+                    <constraint firstItem="giC-in-Lw8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="tgl-1X-s00"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconImage" destination="giC-in-Lw8" id="M8V-kB-wBW"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="102"/>
+        </tableViewCell>
+    </objects>
+</document>

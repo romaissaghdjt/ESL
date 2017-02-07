@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CarController">
+            <connections>
+                <outlet property="bgimg" destination="UJG-w4-X2h" id="49s-1X-A8o"/>
+                <outlet property="carDuibutton" destination="8II-tB-Nkw" id="QXo-kG-ty1"/>
+                <outlet property="compnybutton" destination="GBL-ad-9am" id="IAO-ge-qM8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="zhuangshibutton" destination="58d-yp-X7v" id="jh4-dJ-lD3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chunche" translatesAutoresizingMaskIntoConstraints="NO" id="UJG-w4-X2h">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cS2-mT-p7c" userLabel="View1">
+                    <rect key="frame" x="10" y="134" width="300" height="300"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBL-ad-9am">
+                            <rect key="frame" x="25" y="0.0" width="250" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="60" id="kET-02-8aH"/>
+                                <constraint firstAttribute="width" constant="250" id="pKc-6J-DiZ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="27"/>
+                            <state key="normal" title="公 司 简 介  &gt;&gt;&gt;">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="comCilck:" destination="-1" eventType="touchUpInside" id="Xye-Ct-sLy"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8II-tB-Nkw">
+                            <rect key="frame" x="25" y="120" width="250" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="250" id="D0o-vn-lRZ"/>
+                                <constraint firstAttribute="height" constant="60" id="xU8-XX-nBp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <state key="normal" title="推 荐 车 队  &gt;&gt;&gt;">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="carduicilck:" destination="-1" eventType="touchUpInside" id="Jbx-DL-9ox"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58d-yp-X7v">
+                            <rect key="frame" x="25" y="240" width="250" height="60"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="250" id="D5q-6S-sS3"/>
+                                <constraint firstAttribute="height" constant="60" id="l7I-B1-v6W"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <state key="normal" title="婚 车 装 饰  &gt;&gt;&gt;">
+                                <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="zhuangshiClick:" destination="-1" eventType="touchUpInside" id="Lhp-Jp-8zn"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="300" id="0AN-Sc-yp6"/>
+                        <constraint firstItem="58d-yp-X7v" firstAttribute="centerX" secondItem="cS2-mT-p7c" secondAttribute="centerX" id="GdP-6a-X2w"/>
+                        <constraint firstAttribute="bottom" secondItem="58d-yp-X7v" secondAttribute="bottom" id="Ja5-IZ-9Ea"/>
+                        <constraint firstItem="GBL-ad-9am" firstAttribute="top" secondItem="cS2-mT-p7c" secondAttribute="top" id="Udy-WU-apP"/>
+                        <constraint firstItem="GBL-ad-9am" firstAttribute="centerX" secondItem="cS2-mT-p7c" secondAttribute="centerX" id="ZPJ-b7-OfL"/>
+                        <constraint firstItem="8II-tB-Nkw" firstAttribute="centerX" secondItem="cS2-mT-p7c" secondAttribute="centerX" id="gG6-2w-eOP"/>
+                        <constraint firstAttribute="width" constant="300" id="k61-Yi-2IV"/>
+                        <constraint firstItem="8II-tB-Nkw" firstAttribute="centerY" secondItem="cS2-mT-p7c" secondAttribute="centerY" id="oEL-h8-jth"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cS2-mT-p7c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9ch-Ca-Si6"/>
+                <constraint firstAttribute="bottom" secondItem="UJG-w4-X2h" secondAttribute="bottom" id="BcD-QJ-JWl"/>
+                <constraint firstItem="cS2-mT-p7c" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Tba-Uc-PSj"/>
+                <constraint firstItem="UJG-w4-X2h" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="k3o-f8-2na"/>
+                <constraint firstItem="UJG-w4-X2h" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="lRb-Lh-cyv"/>
+                <constraint firstAttribute="trailing" secondItem="UJG-w4-X2h" secondAttribute="trailing" id="pIX-vk-Y5u"/>
+            </constraints>
+            <point key="canvasLocation" x="214" y="245"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chunche" width="450" height="721"/>
+    </resources>
+</document>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>cn</string>
+	<key>CFBundleDisplayName</key>
+	<string>甬尚鲜</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.nbeysx.ESL</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0.6</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string></string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.nbeysx.ESL</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>weixin</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>wxfc7bea7dec194b51</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSApplicationCategoryType</key>
+	<string>    &lt;key&gt;NSAppTransportSecurity&lt;/key&gt;
+    &lt;dict&gt;
+        &lt;key&gt;NSAllowsArbitraryLoads&lt;/key&gt;
+        &lt;true/&gt;
+    &lt;/dict&gt;</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>iosamap</string>
+		<string>weixin</string>
+		<string>wechat</string>
+		<string>qqmap</string>
+		<string>comgooglemaps</string>
+		<string>baidumap</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>想访问你的蓝牙</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>想访问你的日历</string>
+	<key>NSCameraUsageDescription</key>
+	<string>想访问你的相机</string>
+	<key>NSContactsUsageDescription</key>
+	<string>想访问你的通讯录</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>通过您的地理位置信息获取您周边的相关数据</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>想访问你的麦克风</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>想访问你的相册</string>
+	<key>Privacy - Location Always Usage Description</key>
+	<string>通过您的地理位置信息获取您周边的相关数据</string>
+	<key>Privacy - Location When In Use Usage Description</key>
+	<string>通过您的地理位置信息获取您周边的相关数据</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIRequiresFullScreen</key>
+	<false/>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>rivacy - Speech Recognition Usage Description</key>
+	<string>想访问你的语音识别</string>
+</dict>
+</plist>

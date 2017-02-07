@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="BtnCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我的二维码名片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gt9-6V-AEp">
+                        <rect key="frame" x="15" y="7" width="120" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="120" id="6Li-8m-T9e"/>
+                            <constraint firstAttribute="height" constant="30" id="6vy-f0-nUR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="二维码" translatesAutoresizingMaskIntoConstraints="NO" id="6we-Ph-rk9">
+                        <rect key="frame" x="265" y="2" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="ose-So-K4c"/>
+                            <constraint firstAttribute="width" constant="40" id="rOY-8v-a08"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="6we-Ph-rk9" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0Am-Di-gI8"/>
+                    <constraint firstItem="gt9-6V-AEp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="FhM-Bv-lte"/>
+                    <constraint firstItem="gt9-6V-AEp" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Nmz-b4-9VX"/>
+                    <constraint firstAttribute="trailing" secondItem="6we-Ph-rk9" secondAttribute="trailing" constant="15" id="inj-Y5-Fuc"/>
+                </constraints>
+            </tableViewCellContentView>
+        </tableViewCell>
+        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="jnS-04-hri">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <point key="canvasLocation" x="330" y="270"/>
+        </imageView>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="X6o-dU-3NR">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="X6o-dU-3NR" id="mAo-jc-2vY">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="退出当前账号" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="evL-9h-ilu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="evL-9h-ilu" firstAttribute="leading" secondItem="mAo-jc-2vY" secondAttribute="leading" id="H58-2N-Tcu"/>
+                    <constraint firstAttribute="trailing" secondItem="evL-9h-ilu" secondAttribute="trailing" id="N6g-ZE-BFh"/>
+                    <constraint firstItem="evL-9h-ilu" firstAttribute="top" secondItem="mAo-jc-2vY" secondAttribute="top" id="XWP-Hw-jep"/>
+                    <constraint firstAttribute="bottom" secondItem="evL-9h-ilu" secondAttribute="bottom" id="gQ6-Jf-44h"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="318" y="452"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="二维码" width="45" height="45"/>
+    </resources>
+</document>

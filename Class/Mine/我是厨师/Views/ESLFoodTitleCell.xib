@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ESLFoodTitleCell" id="KGk-i7-Jjw" customClass="ESLFoodTitleCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="菜品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4F0-8g-Cns">
+                        <rect key="frame" x="15" y="11" width="40" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Pix-6S-bON"/>
+                            <constraint firstAttribute="width" constant="40" id="ZqE-sf-0dT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oKX-l1-pAr">
+                        <rect key="frame" x="55" y="12" width="25" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Ygw-IQ-t7T"/>
+                            <constraint firstAttribute="width" constant="25" id="zAf-gj-ihG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="4F0-8g-Cns" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Sd3-u0-Q3V"/>
+                    <constraint firstItem="4F0-8g-Cns" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hpi-3P-QTe"/>
+                    <constraint firstItem="oKX-l1-pAr" firstAttribute="centerY" secondItem="4F0-8g-Cns" secondAttribute="centerY" id="y22-uU-RE7"/>
+                    <constraint firstItem="oKX-l1-pAr" firstAttribute="leading" secondItem="4F0-8g-Cns" secondAttribute="trailing" id="zzf-Nq-ZDB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="foodTypeLabel" destination="4F0-8g-Cns" id="UXt-eG-IcA"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

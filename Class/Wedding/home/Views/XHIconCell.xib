@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="108" id="KGk-i7-Jjw" customClass="XHIconCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fangwu" translatesAutoresizingMaskIntoConstraints="NO" id="VxQ-YQ-2tD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OVw-Mc-Qcf">
+                        <rect key="frame" x="195" y="44" width="180" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="180" id="k5Y-Th-zdR"/>
+                        </constraints>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fN-64-pdL">
+                        <rect key="frame" x="195" y="25" width="172" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="172" id="Qqc-a3-oMw"/>
+                        </constraints>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VxQ-YQ-2tD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="56O-Lx-Sjv"/>
+                    <constraint firstAttribute="bottom" secondItem="VxQ-YQ-2tD" secondAttribute="bottom" id="5cG-vN-eBx"/>
+                    <constraint firstAttribute="trailing" secondItem="OVw-Mc-Qcf" secondAttribute="trailing" id="8iy-cb-2by"/>
+                    <constraint firstItem="VxQ-YQ-2tD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IcM-nR-sI6"/>
+                    <constraint firstAttribute="bottom" secondItem="4fN-64-pdL" secondAttribute="bottom" constant="35" id="Jjg-0y-PIi"/>
+                    <constraint firstAttribute="trailing" secondItem="VxQ-YQ-2tD" secondAttribute="trailing" id="O8R-K2-bG7"/>
+                    <constraint firstAttribute="trailing" secondItem="4fN-64-pdL" secondAttribute="trailing" constant="8" id="OiM-0s-V4p"/>
+                    <constraint firstItem="4fN-64-pdL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="25" id="RAX-J3-4w2"/>
+                    <constraint firstAttribute="bottom" secondItem="OVw-Mc-Qcf" secondAttribute="bottom" constant="7" id="RKr-Hz-r5i"/>
+                    <constraint firstItem="OVw-Mc-Qcf" firstAttribute="top" secondItem="4fN-64-pdL" secondAttribute="bottom" id="bI0-jC-fCX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomBtn" destination="OVw-Mc-Qcf" id="jyb-G0-nQI"/>
+                <outlet property="topBtn" destination="4fN-64-pdL" id="rAO-KH-PVB"/>
+            </connections>
+            <point key="canvasLocation" x="299.5" y="26"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="fangwu" width="1176" height="355"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

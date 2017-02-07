@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ContractController">
+            <connections>
+                <outlet property="textView" destination="Bfw-Iy-cjZ" id="vWh-rr-0Fo"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Bfw-Iy-cjZ">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <string key="text">厨师协议:甲方系依据中国法律依法设立的有限责任公司，通过互联网技术，创建以生鲜配送、网上餐饮订购、宴会餐饮服务、个性化餐饮定制等餐饮服务为一体的商业平台。为更好地创建团队，创新互联网+服务模式，就乙方加盟甲方的“互联网+餐饮”平台，双方在自愿、平等基础上，本着合作、共赢的良好愿望，经充分协商，达成如下协议条款：
+
+第一条合作方式
+1.1甲方承接餐饮服务业务，根据客户的需求由甲方指派乙方为客户提供上门餐饮服务。
+1.2乙方根据甲方的指令为客户提供订单式餐饮厨师服务。
+1.3甲方向客户收取服务报酬后，结合乙方的工作情况支付乙方合作报酬。
+1.4乙方同意并遵守甲方网络服务平台的规章制度，利用  网络平台与甲方及客户进行有效的沟通和信息利用，包括但不限于甲方目前所开发使用的     网络平台及其该平台所要求的乙方职业信息的发布、客户评价系统的使用等，以及甲方为业务需要而对该平台信息进行后续利用的权利。
+
+第二条 合作期限
+1.1合作期限暂定为12个月，自乙方申请加盟且缴纳保证金之日起至乙方申请退出加盟或甲方通知终止合作之日止。
+1.2本合作期限为开放式期限，在合作期内任何一方未提出终止合作的，则合作时间自动顺延一年，以此类推。
+
+第二条 乙方提供服务的方式、时间及地点
+2.1乙方将个人真实的职业信息如职称、照片、身份信息、服务价格、联系方式等提供给甲方，用于    网络平台进行推广和展示，并接受甲方的网络管理和客户的服务选择和质量点评。
+2.2乙方提供服务的性质为厨师，服务方式为上门服务，服务地点为根据甲方指定的地点；
+2.3乙方提供服务的时间：乙方根据甲方客户的要求以及甲方的指令以完成一次服务内容为工作时间单位。 (以上时间已包含菜品、配料及其它必备品采购时间，同时也包含客户餐饮地厨房、餐厅等用餐环境的维护清理时间)。
+2.4除定期物资采购外，乙方服务地点固定为临时食堂或喜事堂，乙方不得于工作时间在临时食堂或外出从事与工作无关的一切活动。(临时外出处理与工作相关事宜需提前征得甲方同意)
+
+第三条 合作的收益分配和负担
+3.1乙方合作收益详见附件，甲方有权根据业务开拓情况及市场的行情予以调整。 
+3.2乙方为完成合作内容而产生的通讯、交通、住宿、餐饮等费用由乙方自负。
+3.3乙方应在申请加盟时缴纳保证金人民币贰仟元（保证金应在接单后48小时内支付，或授权甲方在之前合作收益分配金额中扣除），该款在双方终止合作时扣除乙方应承担的各项赔款等后无息退还，合作期间如保证金有扣减的则乙方应在甲方通知当天补足差额。
+3.4本项目合作中乙方不与甲方建立劳动关系，双方之间系平等主体之间的劳务合作，因此乙方的社保等劳动福利待遇由乙方自行解决。
+
+第四条 各方的权利义务
+4.1 甲方的权利和义务
+4.1.1甲方应根据协议的约定按时足额向乙方支付合作收益分配。
+4.1.2甲方应根据客户的需要及时与客户签订服务协议，及时向乙方下单服务的内容。
+4.1.3甲方应为乙方更好的服务创造必要条件，听取乙方关于工作改进及服务条件提升的合理性建议或意见。
+4.1.4就乙方提供服务过程中发生的情况，甲方应乙方合理的要求及时与客户协调沟通。
+4.1.5甲方有权随时检查乙方为客户提供服务的质量、态度等情况，并对乙方予以考核。
+4.2乙方的权利和义务
+4.2.1乙方应在接单生效后及时与客户联系并碰面确认场地情况、商定工作细节，根据甲方的指令及时向客户提供餐饮厨师服务。
+4.2.2乙方在为客户提供服务过程中发现问题及时向甲方反馈，并提供解决方案。4.2.3乙方在提供服务过程中应全面负责餐厅、厨房的安全以及防火、食品卫生工作，不得有外人随意出入厨房重地。
+4.2.4乙方负责厨房食品的安全卫生，不得发生食品中毒等事件，应对每一个菜（成）品保留一份样品以备查，如发生食品中毒等事件由乙方负责，并对所造成的一切损失承担责任。
+4.2.5乙方努力提高自身素质，在服务过程中爱护设备、节约能源，避免浪费。做到科学组织、工艺合理，做出物美价廉，搭配合理，营养丰富，色、香、味俱全的高品质菜品。
+4.2.6乙方应遵守甲方的纪律及操作规定，随时接受甲方对乙方工作情况的检查，对甲方提出的建议和批评应立即予以改进。
+
+第五条  各方承诺
+5.1甲方的承诺
+5.1.1根据本协议的约定及时向乙方支付收益，原则上为完成当次工作后一星期内。
+5.1.2根据客户的订单及时配送宴会所需的各项食材、餐具等，及时分派协助工作的人员。
+5.1.3甲方将积极维护  网络平台，为乙方的合作业务进行宣传和形象展示，并充分保护乙方的个人隐私信息。
+5.2乙方承诺
+5.2.1乙方应遵守国家法律、法规及合同相关约定；严格遵守安全卫生，操作规程和工作规范；爱护甲方及客户的财产，遵守职业道德；服从甲方的管理和调派。
+5.2.2乙方不得在服务或非服务时间在客户宴会场所从事违反国家法律、法规和甲方的相关规章制度的活动，否则一经发现，甲方可视情节给予经济处分，并可单方解除本协议。
+5.2.3乙方保证：基于厨师工作性质的特殊性，乙方于本合同签订时（前）及提供服务过程中身体健康，精神状况正常，未有任何传染性、间歇性或其他一切不适于从事餐饮服务行业的疾病，且未有任何隐瞒身体疾病的行为。如违反承诺，甲方一经发现可单方解除本协议，因此对甲方及客户造成损害的应依法赔偿。
+5.2.4乙方不得于服务期间从事与工作无关的一切活动，无论何种原因，造成乙方人身或财产损失的，乙方自行负责，给甲方或客户造成损失的，乙方应自行赔付，情节严重的，甲方可单方解除本协议。
+5.2.5乙方发生其他违反甲方规章、制度或管理要求的行为，甲方可视情节轻重给予经济处罚，乃至解除本协议。
+5.2.6乙方保证向甲方提供的身份证件、厨师证、健康证等均是真实有效的。
+5.2.7乙方承诺通过  网络平台所建立的个人账号及信息均为真实有效，乙方将谨慎注意和保管、使用网络平台资源，对于个人账户所作出的行为乙方个人自愿承担责任。同意甲方为开展业务需要而使用乙方在账号以及网络上所提供或展现的乙方个人信息资料。
+
+第六条 争议处理
+6.1甲、乙双方就履行本协议所发生一切争议，双方应协商解决，协商不成则交甲方所在地人民法院管辖处理。
+6.2对于乙方为客户提供服务过程中与客户所发生的争议，乙方应采取谦逊态度主动地、积极妥善地予以解决，对于甲方应客户及乙方之要求参与的调处，乙方应给予足够的尊重并接受。
+
+第七条 违约责任
+甲乙双方未能按约履行协议约定义务的，违约方应向守约方承担由此产生的一切违约责任，包括但不限于造成对方以及客户的损失，由此造成诉讼而产生的法院案件受理费、评估费、鉴定费、律师费等一切合理损失。
+
+第八条合同终止
+8.1如乙方终止协议，必须提前半个月且无未完成的服务事项的前提下，向甲方提出书面申请，经甲方同意后可终止协议。
+8.2如甲方支付服务报酬逾期30日的，乙方有权单方终止本协议，并有权要求甲方支付包括服务报酬等在内的相关费用。
+
+第九条：其它
+9.1甲方通过及发布与  网络平台的信息文字，甲方系唯一、合法的权利人，乙方不得应与自身有涉及而主张任何的知识产权如著作权、肖像权等及其衍生权利。
+9.2通知和送达：各方应按本协议前述主体部分描述的联系地址和通讯方式向对方通知，任何一方改变联系方式的应书面通知对方。任何一方按前述通讯方式向对方所作的通知，以电话、微信方式通知的视为即时送达。
+9.3本协议一式两份，甲乙双方各执一份，双方签字盖章后生效，具有同等法律效力。</string>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="2S6-RL-gV0"/>
+                    </connections>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Bfw-Iy-cjZ" secondAttribute="trailing" id="6op-2Z-Yvi"/>
+                <constraint firstItem="Bfw-Iy-cjZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IY3-nA-H9v"/>
+                <constraint firstItem="Bfw-Iy-cjZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="WQy-lb-J6Z"/>
+                <constraint firstAttribute="bottom" secondItem="Bfw-Iy-cjZ" secondAttribute="bottom" id="jsl-bf-KJU"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

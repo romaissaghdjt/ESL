@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CLCheckViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="xV6-Ii-ydr">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                </imageView>
+                <imageView autoresizesSubviews="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wenzi" translatesAutoresizingMaskIntoConstraints="NO" id="m7q-up-RuD">
+                    <rect key="frame" x="35" y="20" width="250" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="bTc-fW-gLP"/>
+                        <constraint firstAttribute="width" constant="250" id="dM9-we-wt2"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mad-HH-dOu">
+                    <rect key="frame" x="40" y="126" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="9gB-B9-iMh"/>
+                        <constraint firstAttribute="width" constant="60" id="PW6-Vh-R3I"/>
+                    </constraints>
+                    <state key="normal" image="返回"/>
+                    <connections>
+                        <action selector="backClick:" destination="-1" eventType="touchUpInside" id="Ig5-iJ-aSe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Mad-HH-dOu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="24q-n7-Xdp"/>
+                <constraint firstItem="xV6-Ii-ydr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6JE-IW-pNJ"/>
+                <constraint firstAttribute="bottom" secondItem="xV6-Ii-ydr" secondAttribute="bottom" id="P0c-kG-U6a"/>
+                <constraint firstItem="xV6-Ii-ydr" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="PaU-60-iKn"/>
+                <constraint firstItem="m7q-up-RuD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="WDJ-fc-MMV"/>
+                <constraint firstItem="m7q-up-RuD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="YzU-XW-QiK"/>
+                <constraint firstAttribute="trailing" secondItem="xV6-Ii-ydr" secondAttribute="trailing" id="bLd-iT-gWb"/>
+                <constraint firstItem="Mad-HH-dOu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="126" id="fKw-eG-LPG"/>
+            </constraints>
+            <point key="canvasLocation" x="180" y="257"/>
+        </view>
+        <viewController id="FDP-Es-8bi">
+            <layoutGuides>
+                <viewControllerLayoutGuide type="top" id="Xn5-fI-muO"/>
+                <viewControllerLayoutGuide type="bottom" id="9CL-kL-6hU"/>
+            </layoutGuides>
+            <view key="view" contentMode="scaleToFill" id="eZx-Fe-Qxi">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="EEV-yv-P9O">
+                        <rect key="frame" x="0.0" y="124" width="320" height="182"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            </view>
+            <point key="canvasLocation" x="326" y="295"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="bg" width="1242" height="2208"/>
+        <image name="wenzi" width="1003" height="704"/>
+        <image name="返回" width="51" height="24"/>
+    </resources>
+</document>

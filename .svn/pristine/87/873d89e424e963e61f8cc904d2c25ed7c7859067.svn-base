@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="77" id="KGk-i7-Jjw" customClass="CookStarCell">
+            <rect key="frame" x="0.0" y="0.0" width="116" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="116" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="三星级" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yYq-Lo-bsp">
+                        <rect key="frame" x="32" y="12" width="51" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="MaG-VI-JJk"/>
+                            <constraint firstAttribute="width" constant="51" id="dUc-3h-qna"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yYq-Lo-bsp" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="arr-am-bss"/>
+                    <constraint firstItem="yYq-Lo-bsp" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="oFL-Tz-wmZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="starName" destination="yYq-Lo-bsp" id="zrk-Hv-as7"/>
+            </connections>
+            <point key="canvasLocation" x="69" y="152.5"/>
+        </tableViewCell>
+    </objects>
+</document>
